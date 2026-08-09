@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>MiniSocial</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        MiniSocial
+    </div>
+
+
+    <div class="nav-links">
+
+        <button
+            onclick="location.href='index.html'">
+            Home
+        </button>
+
+
+        <button
+            onclick="location.href='profile.html'">
+            Profile
+        </button>
+
+
+        <button
+            onclick="logout()">
+            Logout
+        </button>
+
+    </div>
+
+</nav>
+
+
+<!-- MAIN -->
+
+<div class="container">
+
+
+    <!-- CREATE POST -->
+
+    <div class="create-post">
+
+        <h2>Create a Post</h2>
+
+        <br>
+
+
+        <textarea
+            id="postContent"
+            placeholder="What's on your mind?">
+        </textarea>
+
+
+        <button
+            class="btn"
+            onclick="createPost()">
+
+            Post
+
+        </button>
+
+    </div>
+
+
+    <!-- FEED -->
+
+    <h2>News Feed</h2>
+
+
+    <div id="feed">
+
+        <p>Loading posts...</p>
+
+    </div>
+
+
+</div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
