@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1786201336857",
+      "name": "balakrishnan d",
+      "email": "balakrishnand1608cr7@gmail.com",
+      "password": "bala16082005",
+      "bio": "Hey! I am using MiniSocial.",
+      "createdAt": "2026-08-08T15:02:16.858Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1786201373402",
+      "userId": "1786201336857",
+      "content": "this app use full to us",
+      "likes": [],
+      "comments": [],
+      "createdAt": "2026-08-08T15:02:53.402Z"
+    }
+  ]
+}
